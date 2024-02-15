@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/* Importação da fonte  */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+/* Geral */
+:root {
+  --cor01: #1b1b1b; /*Background*/
+
+  --fonte-padrao: "Quicksand", Arial, sans-serif;
+}
+
+body {
+  background-color: var(--cor01);
+  color: white;
+  font-family: var(--fonte-padrao);
+}
+
+/* Cabeçalho */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: normal;
+  text-transform: uppercase;
+
+  margin-top: -5px;
+}
+img#imagem-inicio {
+  width: 175px;
+}
+
+/* Inputs */
