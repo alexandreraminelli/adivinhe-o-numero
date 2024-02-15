@@ -14,17 +14,29 @@
     </header>
 
     <main>
-      <h2>Escolha o intervalo dos valores:</h2>
-      <form action="" id="form-intervalo">
-        <div>
-          <!-- Valor mínimo -->
-          <input type="number" name="valor-minimo" id="valor-minimo" placeholder="Valor mínimo" required />
-          <!-- Valor máximo -->
-          <input type="number" name="valor-maximo" id="valor-maximo" placeholder="Valor máximo" required />
-        </div>
+      <!-- Escolher intervalo -->
+      <section id="escolher-intervalo">
+        <h2>Escolha o intervalo dos valores:</h2>
+        <form action="" id="form-intervalo">
+          <div>
+            <!-- Valor mínimo -->
+            <input type="number" name="valor-minimo" id="valor-minimo" placeholder="Valor mínimo" required />
+            <!-- Valor máximo -->
+            <input type="number" name="valor-maximo" id="valor-maximo" placeholder="Valor máximo" required />
+          </div>
+          <input type="submit" value="Iniciar" />
+        </form>
+      </section>
 
-        <input type="submit" value="Iniciar" />
-      </form>
+      <!-- Tentar adivinhar -->
+      <section id="adivinhar-numero">
+        <p class="texto-adivinhar">Pensei num número entre X e Y. Você sabe dizer qual foi?</p>
+        <form action="" id="form-adivinhar">
+          <input type="number" name="resposta" id="resposta" />
+          <input type="submit" value="Adivinhar" />
+        </form>
+      </section>
+      <!-- Resposta correta -->
     </main>
   </body>
 </html>
