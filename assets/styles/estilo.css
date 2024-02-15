@@ -6,6 +6,8 @@
 /* Geral */
 :root {
   --cor01: #1b1b1b; /*Background*/
+  --cor02: #ffae00;
+  --cor03: #ff0000;
 
   --fonte-padrao: "Quicksand", Arial, sans-serif;
 }
@@ -22,16 +24,63 @@ header {
   flex-direction: column;
   align-items: center;
 }
-h1 {
-  text-align: center;
-  font-size: 4rem;
+
+h1,
+h2 {
   font-weight: normal;
+  text-align: center;
+}
+h1 {
+  font-size: 4rem;
   text-transform: uppercase;
 
   margin-top: -5px;
+  margin-bottom: 10px;
 }
-img#imagem-inicio {
-  width: 175px;
+h2 {
+  font-size: 2rem;
 }
 
+img#imagem-inicio {
+  width: 125px;
+}
+
+main {
+  margin-left: 20px;
+  margin-right: 20px;
+}
 /* Inputs */
+input[type="number"] {
+  background: none;
+
+  border: 1px solid red;
+
+  height: 80px;
+  border-radius: 15px;
+
+  text-align: center;
+  color: white;
+  font-size: 1.3rem;
+}
+
+/* Formulário de intervalo */
+#form-intervalo > div {
+  display: flex;
+  justify-content: space-between; /* Distribui os itens horizontalmente */
+}
+#form-intervalo input[type="number"] {
+  width: 40vw;
+}
+#form-intervalo input[type="submit"] {
+  margin-top: 18px;
+  width: 100%;
+  height: 50px;
+
+  background-image: linear-gradient(to top, var(--cor02), var(--cor03));
+  border: none;
+  border-radius: 10px;
+
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
