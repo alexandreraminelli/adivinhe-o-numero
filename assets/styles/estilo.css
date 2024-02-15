@@ -40,9 +40,6 @@ h1 {
 h2 {
   font-size: 2rem;
 }
-p.texto-adivinhar {
-  text-align: center;
-}
 
 img#imagem-inicio {
   width: 125px;
@@ -55,7 +52,7 @@ main {
 
 /* Ocultar sessões no início */
 section#escolher-intervalo {
-  /* display: none; */
+  display: none;
 }
 
 /* INPUTS */
@@ -106,6 +103,12 @@ input[type="submit"]:hover {
 }
 #form-intervalo input[type="number"] {
   width: 40vw;
+}
+
+/* Texto adivinhar */
+p.texto-adivinhar {
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 /* Formulário de adivinhar número */
