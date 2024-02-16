@@ -120,3 +120,28 @@ p.texto-adivinhar {
 #form-adivinhar input {
   width: 60vw;
 }
+
+/* Mensagem de resposta incorreta */
+aside#resposta-incorreta {
+  margin-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border: 1px solid var(--cor03);
+  border-radius: 15px;
+
+  display: flex;
+  align-items: center;
+}
+aside#resposta-incorreta img {
+  margin: 5px;
+  width: 24vw;
+  height: 24vw;
+}
+aside#resposta-incorreta > div {
+  margin-left: 5px;
+}
+aside#resposta-incorreta p {
+  font-size: 1.24rem;
+  margin: 5px 2px;
+}
