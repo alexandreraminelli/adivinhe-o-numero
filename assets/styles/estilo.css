@@ -51,14 +51,12 @@ main {
 }
 
 /* Ocultar sessões no início */
-section#escolher-intervalo {
-  display: none;
-}
 section#adivinhar-numero,
-aside#resposta-incorreta {
+aside#resposta-incorreta,
+section#parabens {
   display: none;
 }
-/* #adivinhar-numero: block | #resposta-incorreta: flex */
+/* #adivinhar-numero: block | #resposta-incorreta: flex | section#parabens: flex*/
 
 /* INPUTS */
 /* Input number (geral) */
@@ -153,7 +151,7 @@ aside#resposta-incorreta p {
 
 /* Vitória */
 section#parabens {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   align-items: center;
 }
